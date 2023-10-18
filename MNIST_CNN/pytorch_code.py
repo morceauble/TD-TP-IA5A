@@ -121,7 +121,7 @@ plt.legend()
 plt.show()
 
 # Save the model
-torch.save(model.state_dict(), 'mnist_cnn_pytorch.pth')
+torch.save(model.state_dict(), 'MNIST_CNN/mnist_cnn_pytorch.pth')
 
 # Set the model to evaluation mode
 model.eval()
